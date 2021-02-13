@@ -214,7 +214,7 @@ L Device:R_Small R2
 U 1 1 5F8D4189
 P 3500 1350
 F 0 "R2" H 3559 1396 50  0000 L CNN
-F 1 "2k7 (8k66)" H 3559 1305 50  0000 L CNN
+F 1 "3k9 (8k66)" H 3559 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 1350 50  0001 C CNN
 F 3 "~" H 3500 1350 50  0001 C CNN
 	1    3500 1350
@@ -762,7 +762,7 @@ L Device:R_Small R7
 U 1 1 5F99BAEB
 P 3500 3200
 F 0 "R7" H 3559 3246 50  0000 L CNN
-F 1 "2k7 (8k66)" H 3559 3155 50  0000 L CNN
+F 1 "3k9 (8k66)" H 3559 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 3200 50  0001 C CNN
 F 3 "~" H 3500 3200 50  0001 C CNN
 	1    3500 3200
@@ -1139,7 +1139,7 @@ L Device:R_Small R12
 U 1 1 5F9BB11C
 P 3500 5050
 F 0 "R12" H 3559 5096 50  0000 L CNN
-F 1 "2k7 (8k66)" H 3559 5005 50  0000 L CNN
+F 1 "3k9 (8k66)" H 3559 5005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 5050 50  0001 C CNN
 F 3 "~" H 3500 5050 50  0001 C CNN
 	1    3500 5050
@@ -1265,7 +1265,7 @@ Wire Notes Line
 Text Notes 2950 2150 0    50   ~ 10
 see note at bottom
 Text Notes 4700 7300 0    50   ~ 0
-R1,R2 and equivalent resistors for phases B and C:\n\nFor two plain open drain outputs pulling low,\npopulate both with equal values (suggestion: 2k7)\n\nThe values in parantheses are for\n- open drain pulling low\n- open drain with internal series resistor pulling low\ntied together on AL (tested with PSoC6)
+R1,R2 and equivalent resistors for phases B and C:\n\nFor two plain open drain outputs pulling low,\npopulate both (suggestion: 3k9 to 5V, 2k7 to _H input)\n\nThe values in parantheses are for\n- open drain pulling low\n- open drain with internal series resistor pulling low\ntied together on AL (PSoC6)
 Text Notes 8200 6250 0    50   ~ 0
 Close J2 with jumper for "classic" gnd referenced voltage dividers
 Text Notes 8250 2100 0    50   ~ 0
