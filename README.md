@@ -29,6 +29,7 @@ The board was tested with an
 - STM32G071 (breakout board here: https://github.com/crteensy/STM32G071GBU6_breakout)
 - running an experimental branch of AM32, PWM/EN target
 - DShot input through a Mamba F405 Mini
+- Motor: Mamba 1408 4000KV
 - PSU set to 5V, 500 mA current limit
 
 A previous test with PSoC6 worked, too.
