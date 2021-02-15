@@ -22,3 +22,11 @@ Outputs:
 - smallest drill: 0.3 mm
 - track width/spacing: 0.2 mm
 so nothing special at all.
+
+## First test successful
+The board was tested with an
+
+- STM32G071 (breakout board here: )
+- running an experimental branch of AM32, PWM/EN target
+- DShot input through a Mamba F405 Mini
+- PSU set to 5V, 500 mA current limit
