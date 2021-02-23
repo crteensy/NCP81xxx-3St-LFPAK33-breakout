@@ -1270,4 +1270,26 @@ Text Notes 8200 6250 0    50   ~ 0
 Close J2 with jumper for "classic" gnd referenced voltage dividers
 Text Notes 8250 2100 0    50   ~ 0
 Voltage dividers:\n10k / 2k2 for up to 3S\n10k / 1k for up to 6S
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60DBA222
+P 1450 5550
+F 0 "H1" H 1550 5596 50  0000 L CNN
+F 1 "MountingHole" H 1550 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1450 5550 50  0001 C CNN
+F 3 "~" H 1450 5550 50  0001 C CNN
+	1    1450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60DBE191
+P 1450 5750
+F 0 "H2" H 1550 5796 50  0000 L CNN
+F 1 "MountingHole" H 1550 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1450 5750 50  0001 C CNN
+F 3 "~" H 1450 5750 50  0001 C CNN
+	1    1450 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
